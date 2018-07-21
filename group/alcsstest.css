@@ -1,0 +1,188 @@
+/*general formatting*/
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+}
+
+p{
+    line-height: 2em;
+}
+
+h1, h2, p, h3{
+    color: #003F7F;
+}
+
+h3{
+    text-align: left;
+}
+
+/*nav section*/
+.navigation{
+    text-align: center;
+    display: flex;
+    list-style-type: none;
+    height: 35px;
+    justify-content: space-between;
+    padding:30px;
+    position:fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: #D9D9D9;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+li img{
+    height: 50px;
+    width: auto; 
+}
+
+.navigation li {
+    flex: 1;
+}
+
+/*sections*/
+div{
+    padding: 2%;
+}
+
+.sections{
+    display:flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.nyc{
+    background-image: url(img/nyc.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10%;
+}
+
+.bigger{
+    font-size: 70px;
+}
+
+a:link{
+    text-decoration: none;
+    color: #003F7F;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.subsection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image: url(img/unsplashoculusrobingarnier471973.jpg);
+}
+
+.alimage, .altext{
+    flex: 1;
+}
+
+.alimage img{
+    width: 100%;
+}
+
+.currenteventsimg{
+    text-align: center;
+}
+
+.currentevents img{
+    width: 60%;
+}
+
+.foodimg{
+    text-align: center;
+}
+
+.food img{
+    width: 60%;
+}
+
+.shoppingimg{
+    text-align: center;
+}
+
+.shopping img{
+    width: 50%;
+}
+
+.sportsimg{
+    text-align: center;
+}
+
+.sports img{
+    width: 60%;
+}
+
+/*bio section*/
+.bio{
+    display: flex;
+    width: 90%;
+    margin: 2%;
+}
+
+.bioimage{
+    flex: 1;  
+}
+
+.biotext{
+    flex: 2;
+}
+
+.bioimage img{
+    width: 100%;
+}
+
+.biotext p{
+    text-align: left;
+}
+
+/*responsive*/
+@media screen and (max-width: 800px){
+    .sections{
+        width: 90%;
+        margin-top: 200px;
+    }
+    .subsection{
+        flex-direction: column;
+    }
+    .subsection > div{
+        width: 90%;
+    }
+    .bio{
+        width: 90%;
+    }
+    .bio{
+        flex-direction: column;   
+    }
+    .bio > div{
+        width: 90%;
+    }
+    .navigation{
+        flex-direction: column;
+        height: 160px;
+        padding: 2px;
+    }
+    .navigation li{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
