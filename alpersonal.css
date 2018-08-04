@@ -1,0 +1,389 @@
+/*general formatting*/
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #86f442;
+}
+
+p{
+    line-height: 2em;
+}
+
+li a{
+    color: #4a43a8; 
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.sections{
+    margin-top: 100px;
+    font-weight: bold;
+}
+
+.sections li{
+    margin-bottom: 18px;
+}
+
+ul li{
+    list-style-position: inside;
+    line-height: 2em;
+}
+
+/*nav section*/
+.navigation{
+    background-color: #4a43a8;
+    text-align: center;
+    display: flex;
+    list-style-type: none;
+    padding: 20px;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    font-size: 20px;
+}
+
+.navigation li{
+    flex: 1;
+}
+
+.navigation a{
+    color: #ffffff;
+}
+
+/*home page*/
+.homesectionone{
+    background-image: url("img/pexels2100x1397endurance-exercise-female-40751.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 45%;
+}
+
+.homesectionone h1{
+    font-size: 50px;
+}
+
+.homesectionone p{
+    font-size: 17px;
+}
+
+.homesectiontwo{
+    display: flex;
+}
+
+.homesectiontwoa, .homesectiontwob, .homesectiontwoc, .homesectiontwod{
+    flex: 1;
+    background-color: #FFFF66;
+    border: 10px solid #86f442;
+    padding: 2% 2% 1% 2%;
+    text-align: center;
+}
+
+.homesectiontwob img, .homesectiontwoc img{
+    width: 100%;
+}
+
+.homesectionthree{
+    background-color: #41a0f4;
+    padding: 4% 8% 4% 7%;
+    text-align: left;
+}
+
+.homesectionfour{
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 1%;
+}
+
+.homesectionfoura{
+    text-align: center;
+    line-height: 3em;
+    padding: 10% 5% 9% 5%;
+    color: #4a43a8;
+}
+
+.homesectionfourb{
+    flex: 2;
+}
+
+.homesectionfourb img{
+    width: 100%;
+}
+
+.homesectionfive{
+    background-color: #f24826;
+    text-align: center;
+    padding: 1% 6% 1% 6%;
+    font-weight: normal;
+}
+
+.homesectionfive p{
+    line-height: 1em;
+}
+
+/*running page*/
+.runningsectionone{
+    background-color: #41a0f4;
+    display: flex;
+}
+
+.runningsectiononea, .runningsectiononeb{
+    flex: 1;
+    padding: 5%;
+}
+
+.runningsectiononea img{
+    width: 100%;
+}
+
+.runningsectiononeb h1{
+    margin-top: 0px;
+}
+
+.runningsectiononeb{
+    padding-left: 0%;
+}
+
+.runningsectiontwo{
+    display: flex;
+    justify-content: center;
+    background-color: #FFFF66;
+    font-weight: bold;
+    padding: 3% 5%;
+}
+
+.runningsectiontwoa, .runningsectiontwob{
+    flex: 1;
+}
+
+.runningsectiontwoa h2{
+    text-align: center;
+}
+
+.runningsectiontwoa{
+    text-align: left;
+    padding: 3% 4% 0% 4%;
+    border: 20px solid #41a0f4; 
+    background-color: #86f442;
+}
+
+.runningsectiontwob{
+    border: 20px solid #f24826;
+}
+
+.runningsectiontwob img{
+    width: 100%;
+}
+
+.runningsectionthree{
+    text-align: center;
+    padding: 5%;
+    background-color: #86f442;
+    color: #4a43a8;
+}
+
+/*interval page*/
+.intervalsectionone{
+    background-image: url("img/bence-boros-635160-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    padding-top: 5%;
+    padding-left: 6%;
+    padding-bottom: 35%;
+    padding-right: 50%;
+}
+
+.intervalsectiontwo{
+    display: flex;
+}
+
+.intervalsectiontwoa, .intervalsectiontwob{
+    flex: 1;
+    border: 15px solid #FFFF66;
+}
+
+.intervalsectiontwoa img{
+    width: 100%;
+}
+
+.intervalsectiontwob{
+    padding: 3% 4%;
+    text-align: left;
+    background-color: #f24826;
+}
+
+.intervalsectiontwob h2{
+    text-align: center;
+}
+
+.intervalsectionthree{
+    display: flex;
+    justify-content: center;
+    padding: 5% 10%;
+}
+
+.intervalsectionthreea, .intervalsectionthreeb, .intervalsectionthreec{
+    flex: 1;
+    border: 10px solid #41a0f4;
+}
+
+.intervalsectionthreeb{
+    text-align: center;
+    background-color: #41a0f4;
+    padding-top: 5%;
+}
+
+.intervalsectionthreea img, .intervalsectionthreec img{
+    width: 100%;
+}
+
+/*yoga page*/
+.yogasectionone{
+    background-image: url("img/girl1665173640360pixabay.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    padding-top: 4%;
+    padding-left: 7%;
+    padding-bottom: 35%;
+    padding-right: 40%;
+}
+
+.yogasectiontwo{
+    border: 20px solid #FFFF66;
+    padding: 3% 4%;
+    background-color: #41a0f4;
+}
+
+.yogasectiontwo h2{
+    text-align: center;
+}
+
+.yogasectionthree{
+    display: flex;
+}
+
+.yogasectionthreea, .yogasectionthreeb, .yogasectionthreec, .yogasectionthreed{
+    flex: 1;
+    background: #f24826; 
+    padding: 1%;
+}
+
+.yogasectionthreea img, .yogasectionthreeb img, .yogasectionthreec img, .yogasectionthreed img{
+    width: 100%;
+}
+
+/*hiking page*/
+.hikingsectionone{
+    display: flex;
+    background-color: #86f442;
+    padding-top: 5%;
+    padding-right: 4%;
+    padding-left: 1%;
+    padding-bottom: 4%;
+}
+
+.hikingsectiononea, .hikingsectiononeb{
+    flex: 1;
+}
+
+.hikingsectiononea{
+    padding: 0% 6% 0% 8%;
+}
+
+.hikingsectiononea h1{
+    margin-top: 0px;
+}
+
+.hikingsectiononeb img{
+    width: 100%;
+}
+
+.hikingsectiontwo{
+    display: flex;
+    justify-content: center;
+    background-color: #FFFF66;
+    padding: 3% 5%;
+}
+
+.hikingsectiontwoa, .hikingsectiontwob{
+    flex: 1;
+}
+
+.hikingsectiontwoa img{
+    width: 100%;
+}
+
+.hikingsectiontwoa{
+    border: 20px solid #41a0f4;
+}
+
+.hikingsectiontwob{
+    background-color: #FFFF66;
+    border: 20px solid #FF0000;
+    text-align: left;
+    padding: 2% 2% 2% 2%;
+}
+
+.hikingsectiontwob h2{
+    text-align: center;
+}
+
+.hikingsectionthree{
+    background-image: url("img/hikingpictwo.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    padding: 15%;
+    text-align: center;
+    color: #86f442;
+}
+
+/*responsive*/
+@media screen and (max-width: 800px){
+    .navigation{
+        flex-direction: column;
+    }
+    
+    .sections{
+        width: 100%;
+        margin-top: 160px;
+    }
+    
+    ul li{
+        line-height: 1em;
+    }
+    
+    .sections div{
+        flex-direction: column;
+    }
+    
+    .sections h1, .sections h2{
+        font-size: 20px;
+    }
+    
+    .sections p{
+        line-height: 1em;
+    }
+    
+    .intervalsectionone, .yogasectionone{
+        color: #f24826;
+    }
+}
+
+
+
+
+
+
