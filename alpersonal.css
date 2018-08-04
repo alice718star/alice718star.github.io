@@ -1,0 +1,415 @@
+/*general formatting*/
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    line-height: 2em;
+}
+
+li a{
+    color: #f24826;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.sections{
+    margin-top: 100px;
+}
+
+.sections li{
+    margin-bottom: 18px;
+}
+
+ul li{
+    list-style-position: inside;
+    line-height: 2em;
+}
+
+/*nav section*/
+.navigation{
+    background-color: #41a0f4;
+    text-align: center;
+    display: flex;
+    list-style-type: none;
+    padding: 30px;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    font-size: 20px;
+}
+
+.navigation li{
+    flex: 1;
+}
+
+.navigation a{
+    color: #ffffff;
+}
+
+/*home page*/
+.homesectionone{
+    background-image: url("img/pexels2100x1397endurance-exercise-female-40751.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 45%;
+    font-weight: bold;
+}
+
+.homesectionone h1{
+    font-size: 50px;
+}
+
+.homesectionone p{
+    font-size: 17px;
+}
+
+.homesectiontwo{
+    display: flex;
+    font-weight: bold;
+}
+
+.homesectiontwoa, .homesectiontwob, .homesectiontwoc, .homesectiontwod{
+    flex: 1;
+    background-color: #FFFF66;
+    text-align: center;
+    padding: 1%;
+}
+
+.homesectiontwoa, .homesectiontwod{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.homesectiontwob img, .homesectiontwoc img{
+    width: 100%;
+}
+
+.homesectionthree{
+    padding: 4% 8% 4% 7%;
+    text-align: left;
+    background-color: #f24826;
+    font-weight: bold;
+}
+
+.homesectionfour{
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 1%;
+    background-color: #41a0f4;
+}
+
+.homesectionfoura{
+    text-align: center;
+    line-height: 3em;
+    padding: 10% 5% 9% 5%;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.homesectionfourb{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.homesectionfourb img{
+    width: 100%;
+}
+
+.homesectionfive{
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 1% 6% 1% 6%;;
+}
+
+.homesectionfive p{
+    line-height: 1em;
+}
+
+/*running page*/
+.runningsectionone{
+    background-color: #FFFF66;
+    display: flex;
+    font-weight: bold;
+}
+
+.runningsectiononea, .runningsectiononeb{
+    flex: 1;
+    padding: 5%;
+}
+
+.runningsectiononea img{
+    width: 100%;
+}
+
+.runningsectiononeb h1{
+    margin-top: 0px;
+}
+
+.runningsectiononeb{
+    padding-left: 0%;
+}
+
+.runningsectiontwo{
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFF;
+    padding: 3% 5%;
+}
+
+.runningsectiontwoa, .runningsectiontwob{
+    flex: 1;
+    margin: 5px;
+}
+
+.runningsectiontwoa h2{
+    text-align: center;
+    font-weight: normal;
+}
+
+.runningsectiontwoa{
+    text-align: left;
+    padding: 3% 4% 0% 4%;
+    background-color: #41a0f4;
+    color: #FFFFFF;
+}
+
+.runningsectiontwob{
+    border: 20px solid #f24826;
+}
+
+.runningsectiontwob img{
+    width: 100%;
+}
+
+.runningsectionthree{
+    text-align: center;
+    padding: 5%;
+    background-color: #f24826;
+}
+
+/*interval page*/
+.intervalsectionone{
+    background-image: url("img/bence-boros-635160-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    padding-top: 5%;
+    padding-left: 6%;
+    padding-bottom: 35%;
+    padding-right: 50%;
+    font-weight: bold;
+}
+
+.intervalsectiontwo{
+    display: flex;
+}
+
+.intervalsectiontwoa, .intervalsectiontwob{
+    flex: 1;
+    border: 15px solid #FFFF66;
+}
+
+.intervalsectiontwoa img{
+    width: 100%;
+}
+
+.intervalsectiontwob{
+    padding: 3% 4%;
+    text-align: left;
+    background-color: #f24826;
+}
+
+.intervalsectiontwob h2{
+    text-align: center;
+    font-weight: normal;
+}
+
+.intervalsectionthree{
+    display: flex;
+    justify-content: center;
+    padding: 5% 10%;
+}
+
+.intervalsectionthreea, .intervalsectionthreeb, .intervalsectionthreec{
+    flex: 1;
+    border: 10px solid #41a0f4;
+}
+
+.intervalsectionthreeb{
+    text-align: center;
+    background-color: #41a0f4;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.intervalsectionthreea img, .intervalsectionthreec img{
+    width: 100%;
+}
+
+/*yoga page*/
+.yogasectionone{
+    background-image: url("img/girl1665173640360pixabay.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    padding-top: 4%;
+    padding-left: 7%;
+    padding-bottom: 35%;
+    padding-right: 40%;
+    font-weight: bold;
+}
+
+.yogasectiontwo{
+    border: 20px solid #FFFF66;
+    padding: 3% 4%;
+    background-color: #41a0f4;
+    color: #FFFFFF;
+}
+
+.yogasectiontwo h2{
+    text-align: center;
+}
+
+.yogasectionthree{
+    display: flex;
+}
+
+.yogasectionthreea, .yogasectionthreeb, .yogasectionthreec, .yogasectionthreed{
+    flex: 1;
+    background: #f24826; 
+    padding: 1%;
+}
+
+.yogasectionthreea img, .yogasectionthreeb img, .yogasectionthreec img, .yogasectionthreed img{
+    width: 100%;
+}
+
+/*hiking page*/
+.hikingsectionone{
+    display: flex;
+    background-color: #FFFF66;
+    padding-top: 5%;
+    padding-right: 4%;
+    padding-left: 1%;
+    padding-bottom: 4%;
+    font-weight: bold;
+}
+
+.hikingsectiononea, .hikingsectiononeb{
+    flex: 1;
+}
+
+.hikingsectiononea{
+    padding: 0% 6% 0% 8%;
+}
+
+.hikingsectiononea h1{
+    margin-top: 0px;
+}
+
+.hikingsectiononeb img{
+    width: 100%;
+}
+
+.hikingsectiontwo{
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFF;
+    padding: 3% 5%;
+}
+
+.hikingsectiontwoa, .hikingsectiontwob{
+    flex: 1;
+    margin: 5px;
+}
+
+.hikingsectiontwoa img{
+    width: 100%;
+}
+
+.hikingsectiontwoa{
+    border: 20px solid #f24826; 
+}
+
+.hikingsectiontwob{
+    background-color: #41a0f4;
+    text-align: left;
+    padding: 2% 2% 2% 2%;
+    color: #FFFFFF;
+}
+
+.hikingsectiontwob h2{
+    text-align: center;
+    font-weight: normal;
+}
+
+.hikingsectionthree{
+    background-image: url("img/hikingpictwo.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    padding: 15%;
+    text-align: center;
+    color: #41a0f4;
+}
+
+/*responsive*/
+@media screen and (max-width: 1200px){
+    .navigation{
+        flex-direction: column;
+    }
+    
+    .sections{
+        width: 100%;
+        margin-top: 160px;
+    }
+    
+    ul li{
+        line-height: 1em;
+    }
+    
+    .sections div{
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .sections h1, .sections h2{
+        font-size: 20px;
+    }
+    
+    .sections p{
+        line-height: 1em;
+    }
+    
+    .intervalsectionone, .yogasectionone{
+        color: #f24826;
+    }
+}
+
+
+
+
+
+
